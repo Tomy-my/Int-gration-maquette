@@ -1,0 +1,29 @@
+@font-face
+{
+    font-family: 'menu';
+    src: url('../font/NEXT ART_Light.otf')
+}
+
+@font-face
+{
+    font-family: 'principal';
+    src: url('../font/Beauty Queen.ttf')
+}
+
+@font-face
+{
+    font-family: 'titre h1';
+    src: url('../font/RedVelvet-Regular.otf')
+}
+
+@font-face
+{
+    font-family: 'social';
+    src:url('../font/social\ media.ttf');
+}
+
+@font-face
+{
+    font-family: 'para';
+    src:url('../font/Louis\ George\ Cafe\ Light.ttf');
+}
