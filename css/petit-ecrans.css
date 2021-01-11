@@ -1,7 +1,0 @@
-@media all and (min-width: 1366px) and (max-width: 1910px)
-{
-    html {
-        zoom: 0.8;
-        -moz-transform: scale(1);
-    }
-}
