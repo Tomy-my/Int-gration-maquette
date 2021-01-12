@@ -16,6 +16,7 @@
     body
     {
         background-position: initial;
+        background-repeat: repeat;
     }
 
     nav 
@@ -58,7 +59,7 @@
     text-decoration: none;
     color: #f0eeee;
     padding-top: 50px;
-    font-size: 70px;
+    font-size: 55px;
     margin-top: 20px;
     margin-left: 30px;
     
@@ -199,9 +200,130 @@
     border-radius: 3px;
     }
 
+    .Logo1
+    {
+    width: 400px;
+    height: 400px;
+    margin-top: 100px;
+    }
 
+    #ligne
+    {
+        width: 66%;
+        height: 4px;
+    }
+    section h1
+    {
+        font-size: 120px;
+    }
+    section h2
+    {
+        font-size: 130px;
+    }
+    section p
+    {
+        margin-left: 25px;
+        margin-right: 25px;
+        line-height: 50px;
+        margin-top: 85px;
+    }
 
+    .dot
+    {
+        width: 28px;
+        height: 28px;
+        margin: 50px 9px;
+    }
 
+    .about-me
+    {
+        height: 1500px;
+        width: 103%;
+    }
+
+    .photo-about-me
+    {
+        height: 500px;
+    }
+
+    .ligne-about
+    {
+        width: 66%;
+        height: 4px;
+        margin-top: 665px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .about-me p
+    {
+        font-size: 40px;
+        text-align: center;
+        margin-left: 25px;
+        margin-right: 25px;
+    }
+
+    .about-me h1
+    {
+        margin-top: 85px;
+        text-align: center;
+        margin-left: auto;
+        font-size: 150px;
+    }
+
+    .about-me h2
+    {
+        width: 45%;
+        height: 53px;
+        font-size: 38px;
+        margin-top: 50px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .porto
+    {
+        background-size: auto;
+        background-repeat: repeat;
+        margin-top: 1526px;
+        width: 103%;
+        height: 687px;
+    }
+
+    .porto h1
+    {
+        margin-top: 25px;
+    }
+    .porto h2
+    {
+        font-size: 150px;
+        padding-top: 45px;
+    }
+    .porto h3
+    {
+        font-size: 48px;
+        margin-top: 45px;
+        margin-left: 25px;
+        margin-right: 25px;
+    }
+    .porto .more
+    {
+        width: 30%;
+        height: 55px;
+        font-size: 38px;
+        margin-top: 45px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .ligne-porto
+    {
+        margin-top: 30px;
+        height: 4px;
+        width: 75%;
+        margin-left: auto;
+        margin-right: auto;
+    }
 
 
 
