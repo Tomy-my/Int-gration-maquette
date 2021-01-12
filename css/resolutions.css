@@ -641,6 +641,7 @@
     .contact
     {
         width: 103%;
+        height: 5000px;
     }
 
     .contact h1
@@ -653,9 +654,76 @@
         font-size: 70px;
     }
 
+    .text-input1
+    {
 
+    }
 
+    .text-input2
+    {
 
+    }
+
+    .text-input3
+    {
+
+    }
+
+    .container
+    {
+        display: block;
+    }
+
+    .container p
+    {
+        font-size: 50px;
+        margin-left: auto;
+        text-align: center;
+        line-height: 60px;
+
+    }
+
+    .container .colo1
+    {
+        width: auto;
+    }
+    .container .colo2
+    {
+        width: 50%;
+        margin-left: auto;
+        margin-right: 5%;       
+        margin-top: -200px;
+    }
+
+    .container h4
+    {
+        font-size: 50px;
+    }
+    .container h5
+    {
+        font-size: 50px;
+    }
+    .container h3
+    {
+        font-size: 50px;
+    }
+    .text-input1[type=text] 
+    {
+
+    }
+    .text-input1[type=text]:focus
+    {
+
+    
+    }
+    .text-input2[type=text] 
+    {
+
+    }
+    .text-input3[type=text] 
+    {
+
+    }
 
 
 
