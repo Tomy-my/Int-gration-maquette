@@ -120,6 +120,32 @@
               </div>
         </div>
 
+<!--                  debut du @ querie                                            -->
+
+        <div class="slideshow-container">
+
+            <div class="mySlides fade">
+              <img src="images/colo1.jpg" style="width:100%">
+            </div>
+            
+            <div class="mySlides fade">
+              <img src="images/colo1-1.jpg" style="width:100%">
+            </div>
+                       
+            <div class="mySlides fade">
+                <img src="images/colo3.jpg" style="width:100%">
+              </div>
+            
+            <div class="mySlides fade">
+                <img src="images/colo3-2.jpg" style="width:100%">
+              </div>
+              
+            
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+            
+            </div>
+<!--                  fin du @ querie                                            -->
         <div id= "video" class="video">
             <h1>VIDEO</h1>
             <div class="ligne-video"></div>
@@ -139,8 +165,29 @@
             </p>
             <div class="video-liste">
                 <img src="images/video1.jpg" class=" v1">
+                <span></span>
+                <div class="media-text1">
+                    <p>
+                        Lorem ipsum dolor sit amet,<br>
+                        consecteur adipisicing
+                    </p>
+                </div>
                 <img src="images/video2.JPG" class=" v2">
+                <span></span>
+                <div class="media-text2">
+                    <p>
+                        Lorem ipsum dolor sit amet,<br>
+                        consecteur adipisicing
+                    </p>
+                </div>
                 <img src="images/video3.JPG" class=" v3">
+                <span></span>
+                <div class="media-text3">
+                    <p>
+                        Lorem ipsum dolor sit amet,<br>
+                        consecteur adipisicing
+                    </p>
+                </div>
             </div>
             <div class="ligne-s">
                 <div class="l1"></div>
@@ -182,7 +229,7 @@
                     </p>
                 </div>
                 <div class="box2">
-                    <img src="images/img1.PNG" class="boximg2">
+                    <img src="images/img2.PNG" class="boximg2">
                     <h1>Aleksandra & Max</h1>
                     <p>
                         Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed drem ipsum dolor sit amet, consectetur adectetur adipisicing elit, sed drem ipsum dolor sit amet, consectetur adectetur adipisicing elit, sed drem ipsum dolor sit amet, consectetur adipisicing elit, sed drem ipsum dolor sit amet, consectetur adipisicing elit, sed d
@@ -190,7 +237,7 @@
                     </p>
                 </div>
                 <div class="box3">
-                    <img src="images/img1.PNG" class="boximg3">
+                    <img src="images/img3.PNG" class="boximg3">
                     <h1>Angela & Jack</h1>
                     <p>
                         Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed drem ipsum dolor sit amet, consectetur adectetur adipisicing elit, sed drem ipsum dolor sit amet, consectetur adectetur adipisicing elit, sed drem ipsum dolor sit amet, consectetur adipisicing elit, sed drem ipsum dolor sit amet, consectetur adipisicing elit, sed d
@@ -245,5 +292,33 @@
         </div>        
         <script>
         </script>
+        <script>
+            var slideIndex = 1;
+            showSlides(slideIndex);
+            
+            function plusSlides(n) {
+              showSlides(slideIndex += n);
+            }
+            
+            function currentSlide(n) {
+              showSlides(slideIndex = n);
+            }
+            
+            function showSlides(n) {
+              var i;
+              var slides = document.getElementsByClassName("mySlides");
+              var dots = document.getElementsByClassName("dot");
+              if (n > slides.length) {slideIndex = 1}    
+              if (n < 1) {slideIndex = slides.length}
+              for (i = 0; i < slides.length; i++) {
+                  slides[i].style.display = "none";  
+              }
+              for (i = 0; i < dots.length; i++) {
+                  dots[i].className = dots[i].className.replace(" active", "");
+              }
+              slides[slideIndex-1].style.display = "block";  
+              dots[slideIndex-1].className += " active";
+            }
+            </script>
     </body>
 </html>

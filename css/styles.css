@@ -971,3 +971,25 @@ margin-top: 50px;
     cursor: text;
 
 }
+
+.slideshow-container
+{
+    display: none;
+}
+
+.media-text1
+{
+    display: none;
+}
+.media-text2
+{
+    display: none;
+}
+.media-text3
+{
+    display: none;
+}
+.videlo-liste span
+{
+    display: none;
+}
