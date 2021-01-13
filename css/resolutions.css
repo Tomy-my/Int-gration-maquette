@@ -11,7 +11,7 @@
     }
 }
 
-@media screen and (max-width: 1365px ) /*768*/
+@media screen and (max-width: 1024px ) /*768*/
 {
     body
     {
@@ -452,7 +452,7 @@
     {
         margin-top: 540px;
         width: 103%;
-        height: 2650px;
+        height: 3350px;
     }
 
     .photo-video
@@ -517,13 +517,14 @@
 
     .video-2 p
     {
-        font-size: 35px;
+        font-size: 45px;
+        line-height: initial;
     }
 
     .v1
     {
         display: block;
-        width: 50%;
+        width: 65%;
         height: auto;
         margin-left: auto;
         margin-right: auto;
@@ -532,7 +533,7 @@
     .v2
     {
         display: block;
-        width: 50%;
+        width: 65%;
         height: auto;
         margin-left: auto;
         margin-right: auto;
@@ -541,7 +542,7 @@
     .v3
     {
         display: block;
-        width: 50%;
+        width: 65%;
         height: auto;
         margin-left: auto;
         margin-right: auto;
@@ -576,7 +577,7 @@
     .box1
     {
         display: block;
-        width: 55%;
+        width: 75%;
         height: 1000px;
         margin-left: auto;
         margin-right: auto;
@@ -585,7 +586,7 @@
     .box2
     {
         display: block;
-        width: 55%;
+        width: 75%;
         height: 1000px;
         margin-left: auto;
         margin-right: auto;
@@ -594,7 +595,7 @@
     .box3
     {
         display: block;
-        width: 55%;
+        width: 75%;
         height: 1000px;
         margin-left: auto;
         margin-right: auto;
@@ -633,7 +634,7 @@
 
     .box p
     {
-      font-size: 38px;
+      font-size: 40px;
       line-height: 50px;
       margin-top: 40px;
     }
@@ -656,23 +657,23 @@
 
     .text-input1[type=text] 
     {
-        width: 350px;
-        height: 59px;
+        width: 45%;
+        height: 80px;
         margin-left: 5%;
         border: solid 1px
 
     }
     .text-input2[type=text] 
     {
-        width: 350px;
-        height: 59px;
+        width: 45%;
+        height: 80px;
         margin-left: 5%;
         border: solid 1px
     }
     .text-input3[type=text] 
     {
-        width: 350px;
-        height: 290px;
+        width: 90%;
+        height: 335px;
         margin-left: 5%;
         border: solid 1px
     }
@@ -695,31 +696,35 @@
     {
         width: auto;
     }
-    .container .colo2
+    .container .colo2 .logo
     {
-        width: 50%;
-        margin-left: auto;
-        margin-right: 5%;       
-        margin-top: -200px;
+        display: none;
+    }
+    .container .colo2 .logo1
+    {
+        display: initial;
+        width: 135%;
+        margin-left: 290%;      
+        margin-top: -170px;
     }
 
     .container h4
     {
-        margin-top: 80px;
-        font-size: 50px;
+        margin-top: 40px;
+        font-size: 45px;
         margin-left: 5%;
 
     }
     .container h5
     {
         margin-top: 60px;
-        font-size: 50px;
+        font-size: 45px;
         margin-left: 5%;
     }
     .container h3
     {
         margin-top: 60px;
-        font-size: 50px;
+        font-size: 45px;
         margin-left: 5%;
     }
 
