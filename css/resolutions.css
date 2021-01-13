@@ -655,7 +655,7 @@
         font-size: 70px;
     }
 
-    .text-input1[type=text] 
+    .name[type=text] 
     {
         width: 45%;
         height: 80px;
@@ -663,14 +663,14 @@
         border: solid 1px
 
     }
-    .text-input2[type=text] 
+    .object[type=text] 
     {
         width: 45%;
         height: 80px;
         margin-left: 5%;
         border: solid 1px
     }
-    .text-input3[type=text] 
+    .subject[type=text] 
     {
         width: 90%;
         height: 335px;

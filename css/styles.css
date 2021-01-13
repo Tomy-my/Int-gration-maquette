@@ -857,7 +857,7 @@ margin-top: 50px;
     font-size: 16px;
     margin-top: 10px;
 }
-.text-input1[type=text] 
+.name[type=text] 
 {
     width: 315px;
     height: 30px;
@@ -865,13 +865,8 @@ margin-top: 50px;
     background-color: rgba(255, 255, 255, 0);
     border-color: rgba(0, 0, 0, 0.349);
 }
-.text-input1[type=text]:focus
-{
-    background-color: rgba(255, 255, 255, 0);
-    border-color: rgba(0, 0, 0, 0.349);
 
-}
-.text-input2[type=text] 
+.object[type=text] 
 {
     width: 315px;
     height: 30px;
@@ -879,9 +874,9 @@ margin-top: 50px;
     background-color: rgba(255, 255, 255, 0);
     border-color: rgba(0, 0, 0, 0.349);
 }
-.text-input3[type=text] 
+.subject[type=text] 
 {
-    pointer-events: none;
+    resize: none;
     width: 315px;
     height: 265px;
     margin-top: 10px;
@@ -996,4 +991,9 @@ margin-top: 50px;
 .container .colo2 .logo1
 {
     display: none;
+}
+
+.submit
+{
+    margin-top: 10px;
 }

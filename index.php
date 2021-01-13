@@ -256,12 +256,15 @@
                             adipisicing elit,sed doLorem ipsum dolor  amet,consectetur  
                             adipisicing elit,sed doL
                         </p>
+                        <form methos="post" action="controller.php">
                         <h4>NAME:</h4>
-                            <input  class="text-input1" type="text">
-                        <h5>SUBJECT:</h5>
-                            <input  class="text-input2" type="text">
+                            <input  class="name" type="text">
+                        <h5>OBJECT:</h5>
+                            <input  class="object" type="text">
                         <h3>SUBJECT:</h3>
-                            <input  class="text-input3" type="text">
+                            <textarea  class="subject" name="subject" type="text"></textarea>
+                            <input class="submit" type="submit" value="Valider" />
+                        </form>
                     </div>
                     <div class="colo2">
                         <img src="images/contactimg.JPG" class="logo">
