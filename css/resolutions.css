@@ -641,7 +641,7 @@
     .contact
     {
         width: 103%;
-        height: 5000px;
+        height: 1450px;
     }
 
     .contact h1
@@ -654,19 +654,27 @@
         font-size: 70px;
     }
 
-    .text-input1
+    .text-input1[type=text] 
     {
+        width: 350px;
+        height: 59px;
+        margin-left: 5%;
+        border: solid 1px
 
     }
-
-    .text-input2
+    .text-input2[type=text] 
     {
-
+        width: 350px;
+        height: 59px;
+        margin-left: 5%;
+        border: solid 1px
     }
-
-    .text-input3
+    .text-input3[type=text] 
     {
-
+        width: 350px;
+        height: 290px;
+        margin-left: 5%;
+        border: solid 1px
     }
 
     .container
@@ -697,48 +705,42 @@
 
     .container h4
     {
+        margin-top: 80px;
         font-size: 50px;
+        margin-left: 5%;
+
     }
     .container h5
     {
+        margin-top: 60px;
         font-size: 50px;
+        margin-left: 5%;
     }
     .container h3
     {
+        margin-top: 60px;
         font-size: 50px;
+        margin-left: 5%;
     }
-    .text-input1[type=text] 
-    {
-
-    }
-    .text-input1[type=text]:focus
-    {
-
-    
-    }
-    .text-input2[type=text] 
-    {
-
-    }
-    .text-input3[type=text] 
-    {
-
-    }
-
-
-
-
-
-
-
-
 
     .ending
     {
         width: 103%;
+        height: 200px;
+        background-repeat: initial;
     }
 
     .ending .topnav
+    {
+        display: none;
+    }
+
+    .ending p
+    {
+        font-size: 75px;
+    }
+
+    .ending h1
     {
         display: none;
     }
