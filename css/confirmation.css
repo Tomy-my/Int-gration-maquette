@@ -1,0 +1,119 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+body
+{
+    background-image: url("../images/background1.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    font-family: 'para';
+}
+
+.block
+{
+    width: 37%;
+    height: 610px;
+    background-color: rgba(34, 34, 34, 0.966);
+    border: 2px solid rgb(150, 150, 150);
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 45px;
+    margin-bottom: 45px;
+}
+
+.logo
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 65px;
+    width: 8%;
+}
+
+h1 
+{
+    text-align: center;
+    font-family: 'para';
+    font-size: 50px;
+    margin-top: 45px;
+    color: rgb(255, 255, 255);
+}
+
+.sous-ligne
+{
+    background-color: rgba(255, 255, 255, 0.76);
+    width: 25%;
+    height: 2px;
+    margin-top: 45px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.nom
+{
+    padding-top: 3px;
+    padding-left: 10px;
+    margin-top: 10px;
+    width: 85%;
+    height: 33px;
+    border: 2px solid rgb(124, 124, 124);
+    background-color: rgb(255, 255, 255);
+    margin-left: 45px;
+    color: rgb(39, 39, 39);
+    font-size: 25px;
+}
+.email
+{
+    padding-top: 3px;
+    padding-left: 10px;
+    margin-top: 10px;
+    width: 85%;
+    height: 33px;
+    border: 2px solid rgb(124, 124, 124);
+    background-color: rgb(255, 255, 255);
+    margin-left: 45px;
+    color: rgb(39, 39, 39);
+    font-size: 25px;
+}
+.subject
+{
+    margin-top: 10px;
+    padding-top: 15px;
+    padding-left: 10px;
+    width: 85%;
+    height: 300px;
+    border: 2px solid rgb(124, 124, 124);
+    background-color: rgb(255, 255, 255);
+    margin-left: 45px;
+    color: rgb(39, 39, 39);
+    font-size: 25px;
+}
+
+.dessus1
+{
+    margin-top: 15px;
+    margin-left: 45px;
+    font-size: 30px;
+    color: white;
+}
+.dessus2
+{
+    margin-top: 15px;
+    margin-left: 45px;
+    font-size: 30px;
+    color: white;}
+.dessus3
+{
+    margin-top: 15px;
+    margin-left: 45px;
+    font-size: 30px;
+    color: white;}
+
+#Compte
+{
+    color: white;
+}

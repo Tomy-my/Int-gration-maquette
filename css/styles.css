@@ -1,4 +1,4 @@
-/* ctr + shift + m   firefox / media query css / break point / flex*/
+
 *
 {
     margin: 0;
@@ -857,31 +857,56 @@ margin-top: 50px;
     font-size: 16px;
     margin-top: 10px;
 }
-.name[type=text] 
+input[name="name"] 
 {
+    font-family: 'para';
     width: 315px;
     height: 30px;
     margin-top: 10px;
     background-color: rgba(255, 255, 255, 0);
-    border-color: rgba(0, 0, 0, 0.349);
+    border-color: rgba(13, 12, 12, 0.45)
 }
 
-.object[type=text] 
+input[name=email] 
 {
+    font-family: 'para';
     width: 315px;
     height: 30px;
     margin-top: 10px;
     background-color: rgba(255, 255, 255, 0);
-    border-color: rgba(0, 0, 0, 0.349);
+    border-color: rgba(13, 12, 12, 0.45)
 }
-.subject[type=text] 
+textarea[name=subject] 
 {
     resize: none;
+    font-family: 'para';
     width: 315px;
     height: 265px;
     margin-top: 10px;
     background-color: rgba(255, 255, 255, 0);
-    border-color: rgba(0, 0, 0, 0.349);
+    border-color: rgba(13, 12, 12, 0.45)
+}
+input[value=Submit]
+{
+    font-family: 'para';
+    font-size: 15px;
+    width: 25%;
+    height: 25px;
+    margin-top: 15px;
+    background-color: rgba(255, 255, 255, 0);
+    border-color: rgba(13, 12, 12, 0.45);
+}
+
+input[value=Submit]:active 
+{
+    transform: scale(1.1) ;
+}
+
+input[value=Submit]:hover
+{
+    transition-duration: 0.3s;
+    background-color: rgba(29, 29, 29, 0.685);
+    color: rgb(255, 255, 255);
 }
 
 .ending
