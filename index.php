@@ -1,3 +1,26 @@
+<?php
+try // on essaye mdr
+{
+	// On se connecte à la base de donnée
+	$bdd = new PDO('mysql:host=localhost;dbname=tst;charset=utf8', 'root', '');
+}
+catch(Exception $e)
+{
+	// En cas d'erreur, on affiche un message et on arrête tout
+        die('Erreur : '.$e->getMessage());
+}
+
+// On récupère tout le contenu de la table nom et on choisis dans la table l'ID numéro 1
+$reponse = $bdd->query('SELECT * FROM nom WHERE id=\'1\'');
+
+// On affiche chaque entrée une à une
+while ($donnees = $reponse->fetch())
+{
+?>
+
+
+
+
 <!DOCTYPE html>
 <html>
     <head>
@@ -221,7 +244,7 @@
             <div class="box">
                 <div class="box1">
                     <img src="images/img1.PNG" class="boximg1">
-                    <h1>Cassandra & Andreas</h1>
+                    <h1><?php echo $donnees['nom']; ?></h1>
                     <p>
                         Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed drem ipsum dolor sit amet, consectetur adectetur adipisicing elit, sed drem ipsum dolor sit amet, consectetur adectetur adipisicing elit, sed drem ipsum dolor sit amet, consectetur adipisicing elit, sed drem ipsum dolor sit amet, consectetur adipisicing elit, sed d
                     </p>
@@ -320,5 +343,9 @@
               dots[slideIndex-1].className += " active";
             }
             </script>
+<?php
+}
+$reponse->closeCursor(); // Termine le traitement de la requête
+?>
     </body>
 </html>
