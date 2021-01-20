@@ -71,11 +71,11 @@
 
 
         <body>
-          <img class="logo" src="http://tomy/Tomy/maquette/images/Logo.png">
+          <img class="logo" src="/images/Logo.png">
           <div class="sous-ligne"> </div>
             <h1>Résumer de votre demande de contact </h1>
             <div id="decompte"></div>
-            <div class="go-home">Cliquez <a href="#">ici</a> pour aller directement à la page principal.</div>
+            <div class="go-home">Cliquez <a href="/index.php">ici</a> pour aller directement à la page principal.</div>
               <div class="block">
                 <div class="dessus1">
                   Prenom :

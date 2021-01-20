@@ -1,0 +1,110 @@
+
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+body
+{
+    background-image: url("../images/background1.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+
+}
+
+input
+{
+    outline: none;
+    border: none;
+}
+
+input::placeholder
+{
+    color: rgb(255, 255, 255);
+}
+
+.Logo
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h1
+{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    margin-top: 10px;
+}
+
+.page
+{
+    background-color: rgba(255, 255, 255, 0);
+    font-family: 'para';
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 150px;
+    padding: 55px 55px 37px 55px;
+    width: 500px;
+    height: 600px;
+    border-radius: 15px;
+    animation: fadein 2.6s;
+    -webkit-animation: fadein 2.6s;
+    -webkit-box-shadow: 0 10px 30px 0px rgba(160, 160, 160, 0.247);
+
+}
+
+@-webkit-keyframes fadein 
+{ 
+    from 
+    {
+        opacity: 0;
+    }
+    to 
+    {
+        opacity: 1;
+    }
+}
+
+.nom
+{
+    font-family: Poppins-Regular;
+    font-size: 16px;
+    color: #fff;
+    line-height: 1.2;
+    display: block;
+    width: 100%;
+    height: 45px;
+    background: transparent;
+    padding: 0 5px 0 38px;
+    font-family: 'para';
+}
+
+.mdp
+{
+    font-family: Poppins-Regular;
+    font-size: 16px;
+    color: #fff;
+    line-height: 1.2;
+    display: block;
+    width: 100%;
+    height: 45px;
+    background: transparent;
+    padding: 0 5px 0 38px;
+    font-family: 'para';
+    
+}
+
+.user
+{
+    font-family: 'fontello';
+    color: rgb(255, 255, 255);
+}
+
+.mdp
+{
+    font-family: 'fontello';
+    color: rgb(255, 255, 255);
+
+}

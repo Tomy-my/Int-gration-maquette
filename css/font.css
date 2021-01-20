@@ -27,3 +27,12 @@
     font-family: 'para';
     src:url('../font/Louis\ George\ Cafe\ Light.ttf');
 }
+
+@font-face {
+    font-family: 'fontello';
+    src: url('../font/fontello.eot?19674196');
+    src: url('../font/fontello.eot?19674196#iefix') format('embedded-opentype'),
+         url('../font/fontello.woff?19674196') format('woff'),
+         url('../font/fontello.ttf?19674196') format('truetype'),
+         url('../font/fontello.svg?19674196#fontello') format('svg');
+}
